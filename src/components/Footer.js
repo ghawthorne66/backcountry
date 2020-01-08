@@ -5,7 +5,7 @@ export const Footer = () => {
         <div>
 
             <h1>I'm a footer</h1>
-            <div className='footer-links'>I'm a footer link</div>
+            <div className='links'>I'm a footer link</div>
             
         </div>
     )
