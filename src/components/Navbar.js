@@ -30,6 +30,15 @@ const Navbar = () => {
             </Link></li>)
         })}
         </ul>
+        <div className={styles.navSocialLinks}>
+        {socialIcons.map((item,index) => {
+            return (
+                <a key={index} href={item.url} target=" blank"
+                rel="noopener noreferrer">
+{item.icon}
+</a>
+            )
+        })}</div>
         </div>
         </nav>
     )
