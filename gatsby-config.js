@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  plugins: [
-'gatsby-plugin-styled-components']
+  plugins: [`gatsby-plugin-sass`,
+`gatsby-plugin-styled-components`],
   /* Your site config here */
 }
