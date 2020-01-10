@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from  "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
@@ -14,9 +14,9 @@ export default ({data}) => (
         title="continue exploring" 
         info="Parfaite l'art charme musculeux tant a pleure-t-elle. Vois faudra frémir abondent dans. Voici au dans déplore doué. Tete adorablement d'un doué a vraiment fatuité face. Trésor de tes atrocement ce. "
         >
-        <Link to="/tours" className="btn-white">
+        <AniLink fade to="/tours" className="btn-white">
         explore tours
-        </Link>
+        </AniLink>
         </Banner>
       </StyledHero>
       <About />
