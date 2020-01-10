@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Images from "../examples/Images"
 
 export const blog = props => {
-    console.log(props)
     
     return (
         <Layout>
-            hello from blog pag
+            hello from blog page
             <Link to="/">home</Link>
+            <Images />
             
         </Layout>
     )

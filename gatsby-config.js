@@ -5,9 +5,10 @@
  */
 
 module.exports = {
-  siteMetadata:{
+  siteMetadata: {
     title: "Backroads",
-    description: "Explore awesome worldwide tours & discover what makes each of them unique.  Forget your daily routine & say yes to adventure",
+    description:
+      "Explore awesome worldwide tours & discover what makes each of them unique.  Forget your daily routine & say yes to adventure",
     author: "@johndoe",
     data: {
       name: "john",
@@ -22,8 +23,10 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-`gatsby-plugin-styled-components`],
+    `gatsby-plugin-styled-components`,
+  ],
   /* Your site config here */
 }
