@@ -7,7 +7,7 @@ import AniLink from "gatsby-plugin-transition-link"
 
 const getTours = graphql`
   query {
-    featuredTours: allContentfulTour(filter: { featured: { eq: false} }) {
+    featuredTours: allContentfulTour(filter: { featured: { eq: true} }) {
       edges {
         node {
           name
