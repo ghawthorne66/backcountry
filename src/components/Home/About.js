@@ -16,6 +16,7 @@ query aboutImage{
     }
   }
 `
+
 const About = () => {
     const { aboutImage } = useStaticQuery(getAbout)
     return (
