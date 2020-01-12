@@ -8,13 +8,13 @@ query  {
         title
         description
         author
-        data {
-          name
-          age
+        twitterUsername
+        image
+        siteUrl
+        
         }
       }
     }
-  }
   `
 
 const RegularHeader = () => {

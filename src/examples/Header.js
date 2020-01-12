@@ -3,18 +3,17 @@ import {useStaticQuery,graphql} from "gatsby"
 
 const getSiteData = graphql`
 query FirstQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        author
-        data {
-          name
-          age
-        }
-      }
+  site {
+    siteMetadata{
+      title
+      description
+      author
+      twitterUsername
+      image
+      siteUrl
     }
   }
+}
 
 `
 const Header = () => {
