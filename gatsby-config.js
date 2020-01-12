@@ -9,13 +9,8 @@ module.exports = {
     author: "@johndoe",
     twitterUsername: "@gshawthorne",
     image: "defaultBcg.jpeg",
-    siteUrl: "https://5e1a1a1e234ba2d1211d51de--backcountry-tours.netlify.com"
-    
-    },
+    siteUrl: "https://backcountry-tours.netlify.com",
   },
-
-
-  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -41,4 +36,3 @@ module.exports = {
     `gatsby-plugin-playground`,
   ],
 }
-
