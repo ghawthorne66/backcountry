@@ -3,6 +3,7 @@ import AniLink from  "gatsby-plugin-transition-link/AniLink"
 import Layout from '../components/Layout'
 import StyledHero from "../components/StyledHero"
 import {graphql} from 'gatsby'
+import BlogList from '../components/Blog/BlogList'
 
 
 const blog = ({ data}) => {
@@ -10,7 +11,8 @@ const blog = ({ data}) => {
     return (
         <Layout>
             <StyledHero img={data.blogBcg.childImageSharp.fluid}
- />           
+ />     
+ <BlogList />      
             
             
         </Layout>
