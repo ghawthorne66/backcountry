@@ -8,7 +8,7 @@ module.exports = {
       "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
     author: "@johndoe",
     twitterUsername: "@gshawthorne",
-    image: "../tour-7.jpeg",
+    image: "/tour-7.jpeg",
     siteUrl: "https://backcountry-tours.netlify.com",
   },
   plugins: [
