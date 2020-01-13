@@ -13,6 +13,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,6 +29,15 @@ module.exports = {
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
+      {
+        resolve: 'gatsby-plugin-robots-txt',
+        options: {
+          host: 'https://backcountry-tours.netlify.com',
+          sitemap: 'https://backcountry-tours.netlify.com/sitemap.xml',
+          policy: [{ userAgent: '*', allow: '/' }]
+        }
+      },
+      
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
