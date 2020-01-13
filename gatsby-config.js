@@ -28,7 +28,7 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      }
+      },
     },
       {
         resolve: 'gatsby-plugin-robots-txt',
@@ -36,10 +36,8 @@ module.exports = {
           host: 'https://backcountry-tours.netlify.com',
           sitemap: 'https://backcountry-tours.netlify.com/sitemap.xml',
           policy: [{ userAgent: '*', allow: '/' }]
-        }
+        },
       },
-      
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
